@@ -40,11 +40,11 @@ This project involves the development of a stock price prediction model using hi
 ## Power BI Model Visualizations
 ### NVDA Prediction
 - This shows the performance of the model for NVDA over the full data set
-![NVDA Prediction](NVDA_prediction.png)
+![NVDA Prediction](NVDA_Prediction.png)
 
 ### Meta Prediction
 - This shows the performance of the model for META over the last couple of months
-![Meta Prediction](Meta_prediction.png)
+![Meta Prediction](Meta_Prediction.png)
 
 ## Usage
 - **Running the Python Scripts**: 
