@@ -37,6 +37,10 @@ This project involves the development of a stock price prediction model using hi
   - Colors change based on the stock symbol for better visualization.
   - Metrics indicating model performance for that stock.
 
+## Demo Video
+You can watch a quick demo video of the interactive dashboard below:
+![Demo Video](Demo.MP4)
+
 ## Power BI Model Visualizations
 ### NVDA Prediction
 - This shows the performance of the model for NVDA over the full data set
