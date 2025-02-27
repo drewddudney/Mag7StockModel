@@ -38,8 +38,8 @@ This project involves the development of a stock price prediction model using hi
   - Metrics indicating model performance for that stock.
 
 ## Demo Video
-You can watch a quick demo video of the interactive dashboard below:
-![Demo Video](Demo.mp4)
+Watch the quick demo video showcasing the functionality of the Mag7 Stock Model: [Watch the Demo Video](https://youtu.be/DIzUfJyDAOU)
+
 
 ## Power BI Model Visualizations
 ### NVDA Prediction
