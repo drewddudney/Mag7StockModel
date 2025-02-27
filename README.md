@@ -39,7 +39,7 @@ This project involves the development of a stock price prediction model using hi
 
 ## Demo Video
 You can watch a quick demo video of the interactive dashboard below:
-![Demo Video](Demo.MP4)
+![Demo Video](Demo.mp4)
 
 ## Power BI Model Visualizations
 ### NVDA Prediction
