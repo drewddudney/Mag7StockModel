@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+beautifulsoup4
+pytz
+psycopg2-binary
+SQLAlchemy
+joblib
+scikit-learn
+schedule
