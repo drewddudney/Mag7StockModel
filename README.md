@@ -3,7 +3,7 @@
 ## Project Overview
 This project involves the development of a stock price prediction model using historical stock data. It includes a Power BI dashboard that visualizes the model's predictions, evaluations, and comparisons with actual stock prices. The project aims to provide insights into stock price movements and help users understand predictive modeling in finance.
 
-##Stocks
+## Stocks
 ### The stocks used in this project are the following:
 - AAPL
 - AMZN
