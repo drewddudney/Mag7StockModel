@@ -55,7 +55,7 @@ def make_predictions(models, full_data):
 
             predictions.append(pd.DataFrame({
                 'symbol': symbol,
-                'previous_day_predicted_price': symbol_prediction,
+                'predicted_price': symbol_prediction,
                 'date': symbol_data['date']
             }))
 
@@ -127,7 +127,7 @@ def main():
     #DataFrame
     predictions_df = make_predictions(models, full_data)
     #Shift for current day price
-    predictions_df['predicted_price'] = predictions_df.groupby('symbol')['previous_day_predicted_price'].shift(1)
+    predictions_df['previous_day_predicted_price'] = predictions_df.groupby('symbol')['predicted_price'].shift(1)
     #Combine data into one df
     combined_data = pd.merge(full_data, predictions_df, on=['symbol', 'date'], how='left')
     combined_data = combined_data.drop(index=combined_data.index[:7])
