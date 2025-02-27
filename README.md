@@ -64,8 +64,8 @@ Watch the quick demo video showcasing the functionality of the Mag7 Stock Model:
 2. **Clone the Repository**  
    Open a terminal and run:
    ```bash
-   git clone https://github.com/drewddudney/Mag7StockModel
-   cd Mag7StockModel
+   git clone https://github.com/drewddudney/StockModel
+   cd StockModel
 
 3. **Install Dependencies**  
    Install the required Python libraries using pip:
