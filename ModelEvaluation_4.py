@@ -128,6 +128,6 @@ def main():
     save_predictions_to_sql(metrics_df)
 
 if __name__ == "__main__":
-    main()  # Execute the main function
+    main()
 
 

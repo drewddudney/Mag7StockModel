@@ -121,13 +121,13 @@ def main():
     # Filter necessary columns
     actual_data, predicted_data = filter_data(full_data)
     merged_data = pd.merge(actual_data, predicted_data, on=['symbol', 'date'], how='inner')
-    # Evalulation of model
+    # Evaluation of model
     metrics_df = eval_metrics(merged_data)
 
     #SQL
     save_predictions_to_sql(metrics_df)
 
 if __name__ == "__main__":
-    main()  # Execute the main function
+    main()
 
 
